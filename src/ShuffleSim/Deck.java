@@ -4,8 +4,6 @@
 
  package ShuffleSim;
 
-import java.util.Arrays;
-import java.util.Scanner;
 import java.util.Random;
 
 public final class Deck implements DeckInterface {
@@ -68,7 +66,7 @@ public final class Deck implements DeckInterface {
 
     public String show() {
 
-        return (Arrays.toString(cards));
+        return (showDeck());
 
     }
 
@@ -188,6 +186,25 @@ public final class Deck implements DeckInterface {
             }
 
         }
+
+    }
+
+    /** Used in place of the Arrays Class toString() method, as that was disallowed for this project
+     * @return string representation of the array of cards */
+    private String showDeck() {
+
+        String strResult = ("[");
+
+        for (int i = 0; i < DECK_SIZE; i ++) {
+
+            strResult += cards[i];
+            strResult += (", ");
+
+        }
+
+        strResult += ("]");
+
+        return strResult;
 
     }
 
