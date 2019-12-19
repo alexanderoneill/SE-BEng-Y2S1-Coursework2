@@ -6,7 +6,7 @@ package ShuffleSim;
 
 import java.util.Scanner;
 
-public class DeckTest {
+public class CardForce {
 
     public static void main(String[] args) {
 
@@ -34,7 +34,7 @@ public class DeckTest {
 
         // Randomly shuffle deck
         testdeck.shuffle();
-        
+
         // Show state of deck after shuffle
         System.out.println("\nDeck after first shuffle:");
         System.out.println(testdeck.show());
@@ -45,7 +45,7 @@ public class DeckTest {
         System.out.println(topcard);
 
         // Card Force
-        /** Seeing as how this is the only instance of user input in DeckTest, it's also the only instance of
+        /** Seeing as how this is the only instance of user input in here, it's also the only instance of
          * input validation, just checks if character user enters is numerical or not. Could have used
          * Apache Commons' StringUtils or NumberUtils, but 3rd party libraries were disallowed*/
         while (valid == false) {
@@ -55,7 +55,13 @@ public class DeckTest {
 
             if (Character.isDigit(position.charAt(0))) {
 
-                valid = true;
+                int posInt = Integer.parseInt(position);
+
+                if (posInt > 0 && posInt <= 52) {
+
+                    valid = true;
+
+                }
 
             }
 

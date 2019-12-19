@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d45496e9-6f9c-4261-b71f-ec5becdcb630" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ShuffleSim/CardForce.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ShuffleSim/ShuffleSim/Deck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ShuffleSim/ShuffleSim/Deck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ShuffleSim/ShuffleSim/DeckTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ShuffleSim/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ShuffleSim/Deck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ShuffleSim/DeckInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ShuffleSim/DeckInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ShuffleSim/DeckTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,13 +36,26 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../COM498 Coursework" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.CardForce">
+    <configuration name="CardForce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ShuffleSim.CardForce" />
+      <module name="ShuffleSim" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ShuffleSim.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DeckTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ShuffleSim.DeckTest" />
       <module name="ShuffleSim" />
@@ -55,6 +71,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CardForce" />
         <item itemvalue="Application.DeckTest" />
       </list>
     </recent_temporary>
@@ -93,22 +110,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/-9.-1080.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1576678964790" />
-    <state width="1877" height="377" key="GridCell.Tab.0.bottom" timestamp="1576683296646">
+    <state width="1877" height="377" key="GridCell.Tab.0.bottom" timestamp="1576793265470">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="377" key="GridCell.Tab.0.bottom/-9.-1080.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1576683296646" />
-    <state width="1877" height="377" key="GridCell.Tab.0.center" timestamp="1576683296646">
+    <state width="1877" height="377" key="GridCell.Tab.0.bottom/-9.-1080.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1576793265470" />
+    <state width="1877" height="377" key="GridCell.Tab.0.center" timestamp="1576793265470">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="377" key="GridCell.Tab.0.center/-9.-1080.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1576683296646" />
-    <state width="1877" height="377" key="GridCell.Tab.0.left" timestamp="1576683296646">
+    <state width="1877" height="377" key="GridCell.Tab.0.center/-9.-1080.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1576793265470" />
+    <state width="1877" height="377" key="GridCell.Tab.0.left" timestamp="1576793265470">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="377" key="GridCell.Tab.0.left/-9.-1080.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1576683296646" />
-    <state width="1877" height="377" key="GridCell.Tab.0.right" timestamp="1576683296646">
+    <state width="1877" height="377" key="GridCell.Tab.0.left/-9.-1080.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1576793265470" />
+    <state width="1877" height="377" key="GridCell.Tab.0.right" timestamp="1576793265470">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="377" key="GridCell.Tab.0.right/-9.-1080.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1576683296646" />
+    <state width="1877" height="377" key="GridCell.Tab.0.right/-9.-1080.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1576793265470" />
   </component>
   <component name="masterDetails">
     <states>
