@@ -53,13 +53,17 @@ public class CardForce {
             System.out.println("\nEnter desired final position for Card Force: ");
             position = input.nextLine();
 
-            if (Character.isDigit(position.charAt(0))) {
+            if (position.length() > 0) { // Presence check
 
-                int posInt = Integer.parseInt(position);
+                if (Character.isDigit(position.charAt(0)) && position.length() > 0) { // Type check
 
-                if (posInt > 0 && posInt <= 52) {
+                    int posInt = Integer.parseInt(position);
 
-                    valid = true;
+                    if (posInt > 0 && posInt <= 52) { // Range check
+
+                        valid = true;
+
+                    }
 
                 }
 
